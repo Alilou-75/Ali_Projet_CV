@@ -27,7 +27,7 @@ ul {
 .clique {
          border: 0;
          line-height: 2.5;
-         padding: 20px;
+         padding: 0 20px;
          font-size: 1rem;
          text-align: center;
          color: #fff;
@@ -37,7 +37,7 @@ ul {
          background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
          box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-	 float: right;
+	 
 }
 
 .clique:hover {
@@ -75,6 +75,7 @@ header nav {
         height: 20%;
         margin: auto;
 	padding: 20px;
+	float: right;
       }
 
 footer {
@@ -110,5 +111,6 @@ footer nav {
         height: 20%;
         margin: auto;
         padding: 20px;
+	float: right;
       }
 
