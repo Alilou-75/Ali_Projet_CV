@@ -20,7 +20,6 @@ ul {
     font-style: italic;
     color: #EEFFCC;
     font-variant: small-caps;
-    font-weight: bold;
     font-size: 1em;
     line-height: 1.5em;
     font-family: verdana;
@@ -76,6 +75,7 @@ header nav {
         width: 40%;
         height: 20%;
         margin: auto;
+	padding: 20px;
       }
 
 footer {
@@ -104,4 +104,13 @@ footer {
       color: #EEFFCC;
       text-align: left;
 }
+footer nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
+        height: 20%;
+        margin: auto;
+        padding: 20px;
+      }
 
