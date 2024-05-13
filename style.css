@@ -1,4 +1,35 @@
+body {
+     background:linear-gradient(RGBa(0,120,240,0.5), RGBa(0,240,120,0.5));
+   }
+h1 {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1,5em;
+    line-height: 2em;
+    font-family: Britannic Bold;
+}
+ul {
+    font-style: italic;
+    color: EEFFCC;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: verdana;
+}
+.bouton {
+        background-color: 33FF99;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: black 5px 5px 5px 1px;
+        font-family: verdana, serif;   
+        font-size: 1,5em;
+        text-align: center;
 
+}
 header {
         background-image:url("Entete.jpg");
         background-size: cover; 
@@ -13,7 +44,7 @@ img {
   width: 150px;
   height: 150px;
   border: 1px solid black;
-  border-radius: 10% 10% 10% 10%;
+  border-radius: 50%;
 }
 
 #photo-ali {
@@ -42,4 +73,17 @@ footer {
         flex-direction: row;
         justify-content: space-between;
  }      
+.h4 {
+    font-style: italic;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1,5em;
+    line-height: 2em;
+    font-family: Britannic Bold;
+}
+.liste-footer {
+      font: 1em verdana;
+      color: EEFFCC;
+}
 
