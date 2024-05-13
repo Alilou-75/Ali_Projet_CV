@@ -1,3 +1,13 @@
+
+header {
+        background-image:url("Entete.jpg");
+        background-size: cover; 
+	background-position: center;
+        padding : 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 img {
   width: 150px;
   height: 150px;
