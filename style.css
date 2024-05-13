@@ -1,12 +1,12 @@
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 1px solid black;
   background-color: silver;
 }
 
 #photo-ali {
-  object-position: 80% 10%;
+  object-position: 100% 10%;
 }
 
 
