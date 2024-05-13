@@ -71,7 +71,6 @@ img {
 header nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         width: 40%;
         height: 20%;
         margin: auto;
@@ -107,7 +106,6 @@ footer {
 footer nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         width: 40%;
         height: 20%;
         margin: auto;
