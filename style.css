@@ -10,6 +10,11 @@ h1 {
     font-size: 1,5em;
     line-height: 2em;
     font-family: Britannic Bold;
+    text-shadow: 2px 2px 2px #000;
+}
+li
+{
+list-style: none;
 }
 ul {
     font-style: italic;
@@ -54,6 +59,9 @@ header {
         flex-direction: row;
         justify-content: space-between;
     }
+.header-element {
+        width: 25%;
+}
 img {
   width: 150px;
   height: 150px;
@@ -72,10 +80,6 @@ header nav {
         height: 20%;
         margin: auto;
       }
-header nav a {
-              width: 30%;
-              text-align: center;
-           }
 
 footer {
         background-image:url("Pied_de_page.jpg");
@@ -87,15 +91,19 @@ footer {
         flex-direction: row;
         justify-content: space-between;
  }      
-.h4 {
-    font-style: italic;
-    color: white;
+.footer-element h4 {
+    width: 75%;
     text-align: center;
-    text-align: left;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000;
+    color: white;
     font-weight: bold;
     font-size: 1,5em;
     line-height: 2em;
     font-family: Britannic Bold;
+}
+.footer-element{
+       width: 25%;
 }
 .liste-footer {
       font: 1em verdana;
