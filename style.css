@@ -98,7 +98,9 @@ footer {
     line-height: 2.5em;
     font-family: Britannic Bold;
 }
-
+.footer-element{
+       flex: 1;
+}
 .liste-footer {
       font: 1em verdana;
       color: #EEFFCC;
