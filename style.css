@@ -20,7 +20,7 @@ ul {
     font-family: verdana;
 }
 .bouton {
-        background-color: #33FF99;
+        background: linear-gradient(RGB(0,120,240), RGB(0,240,120));
         color: black;
         padding: 10px;
         border-radius: 10px;
