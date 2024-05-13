@@ -3,7 +3,8 @@ header {
         background-image:url("Entete.jpg");
         background-size: cover; 
 	background-position: center;
-        padding : 20px;
+	border-radius: 10% 10% 0 0;
+        padding: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -12,7 +13,7 @@ img {
   width: 150px;
   height: 150px;
   border: 1px solid black;
-  background-color: silver;
+  border-radius: 10% 10% 10% 10%;
 }
 
 #photo-ali {
