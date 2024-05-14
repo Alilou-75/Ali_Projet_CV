@@ -34,7 +34,7 @@ header ul {
          float:right;
          color: #fff;
          text-shadow: 1px 1px 1px #000;
-         border-radius: 10px;
+         border-radius: 70% 25%;
          background-color: rgba(25, 25, 255, 1);
          background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
@@ -54,7 +54,7 @@ header {
         background-image:url("Entete.jpg");
         background-size: cover; 
 	background-position: center;
-	border-radius: 70% 25%;
+	border-radius: 10px 10px 0 0;
         padding: 20px;
         display: flex;
         flex-direction: column;
