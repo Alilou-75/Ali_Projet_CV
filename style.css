@@ -109,7 +109,7 @@ footer {
       font: 1em verdana;
       color: #EEFFCC;
       text-align: left;
-      padding-bottom: 30px;
+      padding-bottom: 0;
 }
 footer nav {
         display: flex;
