@@ -108,8 +108,7 @@ footer {
 .liste-footer {
       font: 1em verdana;
       color: #EEFFCC;
-      text-align: left;
-      padding-bottom: 0;
+      margin-bottom: 0;
 }
 footer nav {
         display: flex;
