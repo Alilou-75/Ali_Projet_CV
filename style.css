@@ -27,7 +27,6 @@ header ul {
 .clique {
          border: 0;
          line-height: 2.1;
-         padding: 0 20px;
          font-size: 0.8rem;
          text-align: center;
          margin-right: 5px;
@@ -76,7 +75,9 @@ header nav {
         width: 40%;
         height: auto;
         margin: auto;
-	padding: 20px;
+	position: relative;
+	top: 40px;
+	right: 10px;
 	float: right;
       }
 .header-element {
@@ -84,9 +85,10 @@ header nav {
 }
 
 footer {
-        background-color: #4f4954;
+        background-image:url("Entete.jpg");
         background-size: cover; 
 	background-position: center;
+	margin-left: 0px;
         border-radius: 0 0 10px 10px;
         padding: 20px;
         display: flex;
@@ -118,7 +120,6 @@ footer nav {
         width: 40%;
         height: 20%;
         margin: auto;
-        padding: 20px;
 	float: right;
       }
 
