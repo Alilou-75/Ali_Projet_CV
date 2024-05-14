@@ -57,6 +57,8 @@ header {
 	border-radius: 10px 10px 0 0;
         padding: 20px;
         display: flex;
+	position: fixed;
+        top: 0px;
         justify-content: space-between;
     }
 img {
@@ -108,8 +110,8 @@ footer {
 .liste-footer {
       font: 1em verdana;
       color: #EEFFCC;
-      position: fixed;
-      top: 30px;
+      position: relative;
+      bottom: 10px;
       left: 5px;
 }
 footer nav {
