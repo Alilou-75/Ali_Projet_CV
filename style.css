@@ -5,6 +5,35 @@ body {
      background-size: cover; 
      background-position: center;
    }
+.h-gauche {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      height: 85%;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid black;
+    }
+
+.h-centre{
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* position des elements dans ali2 */
+      height: 85%;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid black;
+}
+.h-droite {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      height: 85%;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid rgba(111,41,97,.5);
+
+}
 h1 {
     font-style: italic;
     color: white;
@@ -15,6 +44,7 @@ h1 {
     line-height: 2em;
     font-family: Britannic Bold;
     text-shadow: 2px 2px 2px #000;
+    margin: 0px;
 }
 li
 {
@@ -27,15 +57,14 @@ header ul {
     font-size: 1em;
     line-height: 1.5em;
     font-family: verdana;
+    margin: 0px;
 }
 .clique {
          border: 0;
-         line-height: 2.1;
-	 padding: 0 20px;
+         line-height: 1.5;
          font-size: 0.8rem;
          text-align: center;
-         margin-right: 5px;
-         float:right;
+         margin: 5px;
          color: #fff;
          text-shadow: 1px 1px 1px #000;
          border-radius: 10px;
@@ -43,7 +72,7 @@ header ul {
          background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
          box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-	 width: 50%;
+	 width: 50;
 }
 
 .clique:hover {
@@ -59,10 +88,9 @@ header {
         background-size: cover; 
 	background-position: center;
 	border-radius: 10px 10px 0 0;
-        padding: 20px;
+        padding: 5px;
         display: flex;
 	flex-direction: row;
-        justify-content: space-between;
 	
     }
 img {
@@ -75,19 +103,16 @@ img {
 #photo-ali {
   object-position: 100% 10%;
 }
-header nav {
-        display: flex;
-        flex-direction: column;
-	justify-content: space-evenly;
-        width: 40%;
-        height: auto;
-        margin: auto;
-	float: right;
-      }
-.header-element {
-       flex: 1;
-}
-.objectif{
+.boutons {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgba(111,41,97,.5);
+      align-items: flex-end;
+      justify-content: space-around;
+      padding: 10px;
+    }
+      
+.objectif {
        display: flex;
        flex-direction: row;
        border: 0;
