@@ -9,8 +9,8 @@ body {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
-      height: 85%;
-      width: 30%;
+      height: 90%;
+      width: 40%;
       padding: 10px;
       border: 1px solid black;
     }
@@ -19,8 +19,8 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center; /* position des elements dans ali2 */
-      height: 85%;
-      width: 30%;
+      height: 90%;
+      width: 20%;
       padding: 10px;
       border: 1px solid black;
 }
@@ -28,8 +28,8 @@ body {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      height: 85%;
-      width: 30%;
+      height: 90%;
+      width: 40%;
       padding: 10px;
       border: 1px solid rgba(111,41,97,.5);
 
@@ -54,8 +54,8 @@ header ul {
     font-style: italic;
     color: #EEFFCC;
     font-variant: small-caps;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 0.8em;
+    line-height: 1em;
     font-family: verdana;
     margin: 0px;
 }
@@ -72,7 +72,7 @@ header ul {
          background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
          box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-	 width: 50;
+	 width: 80;
 }
 
 .clique:hover {
@@ -109,7 +109,8 @@ img {
       border: 1px solid rgba(111,41,97,.5);
       align-items: flex-end;
       justify-content: space-around;
-      padding: 10px;
+      padding: 15px;
+      margin: 0px;
     }
       
 .objectif {
