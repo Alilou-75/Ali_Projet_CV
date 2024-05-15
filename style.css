@@ -1,5 +1,9 @@
 body {
+     display: flex;
+     flex-direction: column;
      background:linear-gradient(RGBa(0,120,240,0.5), RGBa(0,240,120,0.5));
+     background-size: cover; 
+     background-position: center;
    }
 h1 {
     font-style: italic;
@@ -82,6 +86,232 @@ header nav {
 .header-element {
        flex: 1;
 }
+.objectif{
+       display: flex;
+       flex-direction: row;
+       border: 0;
+       
+    }
+    #obj-p {
+      display: flex;
+      align-items: center;
+      border: 0;
+      background-color: #00264D;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      inline-size: 200px;
+      height: auto;
+      
+    }
+    #detail-obj {
+      border: 0;
+      inline-size: 70%;
+      height: auto;
+      border-top: 10px solid #00264D;
+      border-bottom: thick solid #00264D;
+     
+    }
+    .expérience {
+       display: flex;
+       flex-direction: row;
+       border:  0;
+    }
+    #exp-p {
+      display: flex;
+      align-items: center;
+      border: 0;
+      background-color: #00264D;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      inline-size: 200px;
+      height: auto;
+    }
+     #detail-exp {
+       border: 0;
+       width: 70%;
+       height: auto;
+       border-top: thick solid #00264D;
+       border-bottom: thick solid #00264D;
+       
+}
+    
+    .formation {
+       display: flex;
+       flex-direction: row;
+       border:  0;
+       
+    }
+    #form-ac {
+      display: flex;
+      align-items: center;
+      border:  0;
+      background-color: #00264D;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      inline-size: 200px;
+      height: auto;
+    }
+    #detail-form {
+       border: 0;
+       width: 70%;
+       height: auto;
+      border-top: thick solid #00264D;
+      border-bottom: thick solid #00264D;
+}
+    .competence {
+       display: flex;
+       flex-direction: row;
+       border:  0;
+       
+    }
+    #comp {
+      display: flex;
+      align-items: center;
+      border:  0;
+      background-color: #00264D;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      inline-size: 200px;
+      height: auto;
+    }
+    #detail-comp {
+       border: 0;
+       width: 70%;
+       height: auto;
+      border-top: thick solid #00264D;
+      border-bottom: thick solid #00264D;
+}
+    .loisirs {
+       display: flex;
+       flex-direction: row;
+       border:  0;
+       
+    }
+    #loiz {
+      display: flex;
+      align-items: center;
+      border:  0;
+      background-color: #00264D;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      inline-size: 200px;
+      height: auto;
+    }
+    #detail-loiz {
+       border: 0;
+       width: 70%;
+       height: auto;
+      border-top: thick solid #00264D;
+      border-bottom: thick solid #00264D;
+}
+    .contacte {
+       display: flex;
+       flex-direction: row;
+       border: 0px;
+       
+    }
+    #form-cont {
+      display: flex;
+      align-items: center;
+      border:  0;
+      background-color: #00264D;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      inline-size: 200px;
+      height: auto;
+    }
+    #corp-form {
+       border: 0;
+       width: 70%;
+       height: auto;
+      border-top: thick solid #00264D;
+      border-bottom: 10px solid #00264D;
+}
+    a {
+      font-family: Britannic;
+      font-style: italic;
+      font-size: 1em;
+      color: white;
+      text-shadow: 2px 2px 2px #000;
+    }
+    
+   #pointer {
+  width: 90%;
+  height: 40px;
+  position: relative;
+  background-color: rgba(25, 25, 255, 1);
+  text-align: center;
+  align-items: center;
+}
+#pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+#pointer:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid rgba(25, 25, 255, 1);
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+    .contacte {
+      font-family: Avenir, sans-serif;
+    }
+fieldset{
+  background-color: rgb(204,221,255);
+}
+legend{
+  font-weight: bold;
+}
+.champ{
+  margin-bottom: 10px;
+}
+textarea{
+  width: 80%;
+  height: 100px;
+}
+    #envoie {
+     border: 0;
+         line-height: 2.1;
+         font-size: 0.8rem;
+         text-align: center;
+         margin-right: 5px;
+         color: #fff;
+         text-shadow: 1px 1px 1px #000;
+         border-radius: 10px;
+         background-color: rgba(25, 25, 255, 1);
+         background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+         box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+	 width: 100px;
+}
+
+#envoie:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+#envoie:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+    }
 
 footer {
         background-image:url("Entete.jpg");
