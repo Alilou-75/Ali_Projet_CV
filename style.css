@@ -325,33 +325,5 @@ footer {
         padding: 20px;
         justify-content: space-between;
  }      
-.footer-element h4 {
-    font-style: italic;
-    top: 20px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1,5em;
-    line-height: 2em;
-    font-family: Britannic Bold;
-    text-shadow: 2px 2px 2px #000;
-}
-.footer-element{
-       flex: 1;
-}
-.liste-footer {
-      font: 1em verdana;
-      color: #EEFFCC;
-      display: flex;
-      
-}
-footer nav {
-        display: flex;
-        flex-direction: column;
-	justify-content: space-between;
-        width: 40%;
-        height: 20%;
-        margin: auto;
-	padding: 20px;
-      }
+
 
