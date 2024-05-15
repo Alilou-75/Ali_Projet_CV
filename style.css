@@ -12,7 +12,7 @@ body {
       height: 90%;
       width: 40%;
       padding: 10px;
-      border: 1px solid black;
+      border: 0px;
     }
 
 .h-centre{
@@ -22,7 +22,7 @@ body {
       height: 90%;
       width: 20%;
       padding: 10px;
-      border: 1px solid black;
+      border: 0px;
 }
 .h-droite {
       display: flex;
@@ -31,7 +31,7 @@ body {
       height: 90%;
       width: 40%;
       padding: 10px;
-      border: 1px solid rgba(111,41,97,.5);
+      border: 0px;
 
 }
 h1 {
@@ -40,10 +40,10 @@ h1 {
     top: 20px;
     text-align: center;
     font-weight: bold;
-    font-size: 1,5em;
+    font-size: 1,8em;
     line-height: 2em;
     font-family: Britannic Bold;
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 3px 3px 3px #000;
     margin: 0px;
 }
 li
@@ -57,7 +57,7 @@ header ul {
     font-size: 0.8em;
     line-height: 1em;
     font-family: verdana;
-    margin: 0px;
+    margin: 5px;
 }
 .clique {
          border: 0;
@@ -106,7 +106,7 @@ img {
 .boutons {
       display: flex;
       flex-direction: column;
-      border: 1px solid rgba(111,41,97,.5);
+      border: 0px;
       align-items: flex-end;
       justify-content: space-around;
       padding: 15px;
