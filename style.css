@@ -100,7 +100,7 @@ header nav {
       height: 100%;
       padding: 10px;
       text-align: center;
-      inline-size: 200px;
+      inline-size: 30%;
       height: auto;
       
     }
@@ -125,7 +125,7 @@ header nav {
       height: 100%;
       padding: 10px;
       text-align: center;
-      inline-size: 200px;
+      inline-size: 30%;
       height: auto;
     }
      #detail-exp {
@@ -151,7 +151,7 @@ header nav {
       height: 100%;
       padding: 10px;
       text-align: center;
-      inline-size: 200px;
+      inline-size: 30%;
       height: auto;
     }
     #detail-form {
@@ -175,7 +175,7 @@ header nav {
       height: 100%;
       padding: 10px;
       text-align: center;
-      inline-size: 200px;
+      inline-size: 30%;
       height: auto;
     }
     #detail-comp {
@@ -199,7 +199,7 @@ header nav {
       height: 100%;
       padding: 10px;
       text-align: center;
-      inline-size: 200px;
+      inline-size: 30%;
       height: auto;
     }
     #detail-loiz {
@@ -223,7 +223,7 @@ header nav {
       height: 100%;
       padding: 10px;
       text-align: center;
-      inline-size: 200px;
+      inline-size: 30%;
       height: auto;
     }
     #corp-form {
@@ -315,15 +315,12 @@ textarea{
 
 footer {
         background-image:url("Pied_de_page.jpg");
-        background-size: cover; 
-	background-position: center;
 	margin-left: 0px;
         border-radius: 0 0 10px 10px;
         padding: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-	width: 100%;
  }      
 .footer-element h4 {
     text-align: center;
