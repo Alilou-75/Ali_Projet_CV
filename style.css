@@ -314,9 +314,9 @@ textarea{
     }
 
 footer {
-        background-image:url("Entete.jpg");
+        background-image:url("Pied_de_page.jpg");
         background-size: cover; 
-	background-position: left;
+	background-position: center;
 	margin-left: 0px;
         border-radius: 0 0 10px 10px;
         padding: 20px;
@@ -334,6 +334,8 @@ footer {
     font-size: 2em;
     line-height: 2.5em;
     font-family: Britannic Bold;
+    display: flex;
+    align-items: center;
 }
 .footer-element{
        flex: 1;
@@ -342,6 +344,8 @@ footer {
       font: 1em verdana;
       color: #EEFFCC;
       text-align: left;
+      display: flex;
+      align-items: flex-start;
 }
 footer nav {
         display: flex;
@@ -349,6 +353,6 @@ footer nav {
         width: 40%;
         height: 20%;
         margin: auto;
-	float: right;
+	align-items: flex-end;
       }
 
