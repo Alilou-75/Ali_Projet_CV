@@ -138,6 +138,7 @@ img {
       height: auto;
       border-top: 10px solid #00264D;
       border-bottom: thick solid #00264D;
+      border-reight: 10px solid #00264D;
      
     }
     .experience {
@@ -162,7 +163,7 @@ img {
        height: auto;
        border-top: thick solid #00264D;
        border-bottom: thick solid #00264D;
-       
+       border-reight: 10px solid #00264D;       
 }
     
     .formation {
@@ -188,6 +189,7 @@ img {
        height: auto;
       border-top: thick solid #00264D;
       border-bottom: thick solid #00264D;
+      border-reight: 10px solid #00264D;
 }
     .competence {
        display: flex;
@@ -212,6 +214,7 @@ img {
        height: auto;
       border-top: thick solid #00264D;
       border-bottom: thick solid #00264D;
+      border-reight: 10px solid #00264D;
 }
     .loisirs {
        display: flex;
@@ -236,6 +239,7 @@ img {
        height: auto;
       border-top: thick solid #00264D;
       border-bottom: thick solid #00264D;
+      border-reight: 10px solid #00264D;
 }
     .contacte {
        display: flex;
@@ -260,6 +264,7 @@ img {
        height: auto;
       border-top: thick solid #00264D;
       border-bottom: 10px solid #00264D;
+      border-reight: 10px solid #00264D;
 }
 
     
