@@ -260,21 +260,20 @@ img {
       border-top: thick solid #00264D;
       border-bottom: 10px solid #00264D;
 }
-#pointer a {
-      font-family: Britannic;
-      font-style: italic;
-      font-size: 1em;
-      color: white;
-      text-shadow: 2px 2px 2px #000;
-    }
+
     
-   #pointer {
+ #pointer {
   width: 90%;
   height: 40px;
   position: relative;
   background-color: rgba(25, 25, 255, 1);
   text-align: center;
   align-items: center;
+  font-family: Britannic;
+  font-style: italic;
+  font-size: 1em;
+  color: white;
+  text-shadow: 2px 2px 2px #000;
 }
 #pointer:after {
   content: "";
