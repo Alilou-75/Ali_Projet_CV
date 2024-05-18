@@ -343,18 +343,45 @@ textarea{
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
     }
-    }
 
 footer {
-	display: flex;
-        flex-direction: row;
-        background-image:url("Pied_de_page.jpg");
-	background-size: cover; 
-        background-position: center;
-	margin-left: 0px;
-        border-radius: 0 0 10px 10px;
-        padding: 20px;
-        justify-content: space-between;
- }      
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(255, 255, 128);
+      background-size: cover;
+      background-position: center;
+      border-radius: 0 0 10px 10px;
+      height: 150px;
+      padding : 5px;
+      border: 1px solid rgba(111,41,97,.5);
+        }
+    .ali-f1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;/* position de ali 1 */
+      height: 85%;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid rgba(111,41,97,.5);
+    }
+ .ali-f2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* position des elements dans ali2 */
+      height: 85%;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid rgba(111,41,97,.5);  
+    }
+  .ali-f3 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;/* position de ali 1 */
+      height: 85%;
+      width: 30%;
+      padding: 10px;
+      border: 1px solid rgba(111,41,97,.5);
+    }
+    
 
 
