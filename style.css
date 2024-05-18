@@ -347,10 +347,8 @@ textarea{
 footer {
       display: flex;
       flex-direction: row;
-      background-image:url("https://github.com/Alilou-75/Ali_Projet_CV/blob/main/Pied_de_page.jpg");
-      background-size: cover;
-      background-position: center;
-      border-radius: 0 0 10px 10px;
+      background-image: url("Pied_de_page.jpg");
+     
         }
 .ali-f1 {
       display: flex;
