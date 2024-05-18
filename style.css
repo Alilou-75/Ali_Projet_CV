@@ -347,11 +347,11 @@ textarea{
 footer {
       display: flex;
       flex-direction: row;
-      background-color: rgb(255, 255, 128);
+      background-image:url("https://github.com/Alilou-75/Ali_Projet_CV/blob/main/Pied_de_page.jpg");
       background-size: cover;
       background-position: center;
       border-radius: 0 0 10px 10px;
-      height: 150px;
+    
       padding : 5px;
       border: 1px solid rgba(111,41,97,.5);
         }
