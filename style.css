@@ -347,13 +347,12 @@ textarea{
 footer {
       display: flex;
       flex-direction: row;
-      background-color: rgb(255, 255, 128);
+      background-image:url("Pied_de_page.jpg");
       background-size: cover;
       background-position: center;
       border-radius: 0 0 10px 10px;
       height: 150px;
       padding : 5px;
-      border: 1px solid rgba(111,41,97,.5);
       position: left:0 right:0 bottom:0;
         }
 .ali-f1 {
@@ -363,7 +362,6 @@ footer {
       height: 85%;
       width: 30%;
       padding: 10px;
-      border: 1px solid rgba(111,41,97,.5);
     }
  .ali-f2 {
       display: flex;
@@ -372,7 +370,6 @@ footer {
       height: 85%;
       width: 30%;
       padding: 10px;
-      border: 1px solid rgba(111,41,97,.5);  
     }
   .ali-f3 {
       display: flex;
@@ -381,6 +378,5 @@ footer {
       height: 85%;
       width: 30%;
       padding: 10px;
-      border: 1px solid rgba(111,41,97,.5);
     }
 
