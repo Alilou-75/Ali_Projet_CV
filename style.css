@@ -272,6 +272,7 @@ img {
       border-top: thick solid #00264D;
       border-bottom: 10px solid #00264D;
       border-reight: 10px solid #00264D;
+	    border-radius: 10px 10px 0 0;
 }
 
     
