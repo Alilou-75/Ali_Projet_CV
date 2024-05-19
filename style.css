@@ -13,6 +13,7 @@ body {
       width: 40%;
       padding: 10px;
       border: 0px;
+	border: 1px solid rgba(111,41,97,.5);
     }
 
 .h-centre{
@@ -23,6 +24,7 @@ body {
       width: 20%;
       padding: 10px;
       border: 0px;
+	border: 1px solid rgba(111,41,97,.5);
 }
 .h-droite {
       display: flex;
@@ -32,6 +34,7 @@ body {
       width: 40%;
       padding: 10px;
       border: 0px;
+	border: 1px solid rgba(111,41,97,.5);
 
 }
 h1 {
