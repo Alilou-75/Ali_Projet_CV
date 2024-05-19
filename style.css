@@ -65,13 +65,13 @@ header ul {
 .clique {
          border: 0;
          line-height: 1.5;
-	 padding: 5 20px;
+	 padding: 5px 20px;
          font-size: 0.8rem;
          text-align: center;
          margin: 5px;
          color: #fff;
          text-shadow: 1px 1px 1px #000;
-         border-radius: 10px;
+         border-radius: 15px 5px;
          background-color: rgba(25, 25, 255, 1);
          background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
     rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
@@ -140,6 +140,7 @@ img {
       border: 0;
       inline-size: 70%;
       height: auto;
+	     padding: 10px;
       border-top: 10px solid #00264D;
       border-bottom: thick solid #00264D;
       border-reight: 10px solid #00264D;
