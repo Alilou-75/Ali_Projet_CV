@@ -1,40 +1,55 @@
 body {
-     display: flex;
-     flex-direction: column;
-     background:linear-gradient(RGBa(0,120,240,0.5), RGBa(0,240,120,0.5));
-     background-size: cover; 
-     background-position: center;
-   }
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(RGBa(0,120,240,0.5), RGBa(0,240,120,0.5));
+    background-size: cover; 
+    background-position: center;
+  }
 .h-gauche {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      height: 90%;
-      width: 40%;
-      padding: 10px;
-      border: 0px;
-    }
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     height: 90%;
+     width: 40%;
+     padding: 10px;
+     border: 0;
+   }
 
 .h-centre{
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* position des elements dans ali2 */
-      height: 90%;
-      width: 20%;
-      padding: 10px;
-      border: 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;/* position des elements dans ali2 */
+     height: 90%;
+     width: 20%;
+     padding: 10px;
+     border: 0px;
 }
 .h-droite {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      height: 90%;
-      width: 40%;
-      padding: 10px;
-      border: 0px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     height: 180px;
+     width: 40%;
+     padding: 10px;
+     border: 0;
 
 }
+.titre {
+    display: flex;
+}
 h1 {
+   font-style: italic;
+   color: white;
+   top: 20px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 3em;
+   font-family: Britannic Bold;
+   text-shadow: 3px 3px 3px #000000, 6px 6px 6px #00ff22;
+   margin: 0px;
+   padding: 0;
+}
+h2 {
     font-style: italic;
     color: white;
     top: 20px;
@@ -45,346 +60,631 @@ h1 {
     font-family: Britannic Bold;
     text-shadow: 3px 3px 3px #000;
     margin: 0px;
-}
+ }
 li
 {
 list-style: none;
 }
 header ul {
-    font-style: italic;
-    color: #EEFFCC;
-    font-variant: small-caps;
-    font-size: 0.8em;
-    line-height: 1em;
-    font-family: verdana;
-    margin: 5px;
+   font-style: italic;
+   text-align: center;
+   color: #4cee0c;
+   text-shadow: 3px 3px 3px #000;
+   font-size: 0.9em;
+   line-height: 1.4em;
+   font-family: verdana;
+   margin: 5px;
+   position: relative;
+   align-items: flex-start;
+   padding-left: 0%;
 }
 .clique {
-         border: 0;
-         line-height: 1.5;
-	 padding: 5px 20px;
-         font-size: 0.8rem;
-         text-align: center;
-         margin: 5px;
-         color: #fff;
-         text-shadow: 1px 1px 1px #000;
-         border-radius: 15px 5px;
-         background-color: rgba(25, 25, 255, 1);
-         background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-         box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-	 width: 150px;
-	 height: 20px;
+        border: 0;
+        line-height: 1.5;
+        padding: 5px 20px;
+        font-size: 0.8rem;
+        text-align: center;
+        text-decoration: none;
+        margin: 3px;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 15px 5px;
+        background-color: rgba(25, 25, 255, 1);
+        background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
+   rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+        width: 120px;
+        height: 20px;
+        
 }
 
 .clique:hover {
-  background-color: rgba(255, 0, 0, 1);
+ background-color: rgb(51, 255, 0);
 }
 
 .clique:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+ box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+   inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 header {
-        background-image:url("Entete.jpg");
-        background-size: cover; 
-	background-position: center;
-	border-radius: 10px 10px 0 0;
-        padding: 5px;
-        display: flex;
-	flex-direction: row;
-	
-    }
-img {
-  width: 150px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 50%;
-	border-shadow: 1px 2px 1px #000;
-}
-
+       background-image:url("/images/Entete.jpg");
+       background-size: cover; 
+       background-position: center;
+       border-radius: 10px 10px 10px 0;
+       padding: 5px;
+       display: flex;
+       flex-direction: row;
+   
+   }
 #photo-ali {
-  object-position: 100% 10%;
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ float: left;
+ shape-outside: margin-box;
+ margin: 0 20px  5px 0;
+ object-position: 100% 10%;
+ 
 }
-.boutons {
-      display: flex;
-      flex-direction: column;
-      border: 0px;
-      align-items: flex-end;
-      justify-content: space-around;
-      padding: 15px;
-      margin: 0px;
-    }
-      
-.objectif {
-       display: flex;
-       flex-direction: row;
-       border: 0;
-       
-    }
-    #obj-p {
-      display: flex;
-      align-items: center;
-      border: 0;
-      background-color: #00264D;
-      height: 100%;
-      padding: 10px;
-      text-align: center;
-      inline-size: 30%;
-      height: auto;
-      
-    }
-    #detail-obj {
-      border: 0;
-      inline-size: 70%;
-      height: auto;
-      border-top: 10px solid #00264D;
-      border-bottom: thick solid #00264D;
-      border-reight: 10px solid #00264D;
-	 border-radius: 10px;   
-     
-    }
-    .experience {
-       display: flex;
-       flex-direction: row;
-       border:  0;
-    }
-    #exp-p {
-      display: flex;
-      align-items: center;
-      border: 0;
-      background-color: #00264D;
-      height: 100%;
-      padding: 10px;
-      text-align: center;
-      inline-size: 30%;
-      height: auto;
-    }
-     #detail-exp {
-       border: 0;
-       width: 70%;
-       height: auto;
-       border-top: thick solid #00264D;
-       border-bottom: thick solid #00264D;
-       border-reight: 10px solid #00264D; 
-	     border-radius: 10px;
+.container {
+     margin-top: 10px;
+     padding: 5px;
+     height: 100%;
+     width: 100%;    
 }
-    
-    .formation {
-       display: flex;
-       flex-direction: row;
-       border:  0;
-       
-    }
-    #form-ac {
-      display: flex;
-      align-items: center;
-      border:  0;
-      background-color: #00264D;
-      height: 100%;
-      padding: 10px;
-      text-align: center;
-      inline-size: 30%;
-      height: auto;
-    }
-    #detail-form {
-       border: 0;
-       width: 70%;
-       height: auto;
-      border-top: thick solid #00264D;
-      border-bottom: thick solid #00264D;
-      border-reight: 10px solid #00264D;
-	     border-radius: 10px; 
+.container p, .Etudiant {
+    color: #4cee0c;
+    font-family: arial;
+    font-size: 0.9em;
+    line-height: 1.4em;
 }
-    .competence {
-       display: flex;
-       flex-direction: row;
-       border:  0;
-       
-    }
-    #comp {
-      display: flex;
-      align-items: center;
-      border:  0;
-      background-color: #00264D;
-      height: 100%;
-      padding: 10px;
-      text-align: center;
-      inline-size: 30%;
-      height: auto;
-    }
-    #detail-comp {
-       border: 0;
-       width: 70%;
-       height: auto;
-      border-top: thick solid #00264D;
-      border-bottom: thick solid #00264D;
-      border-reight: 10px solid #00264D;
-	     border-radius: 10px; 
-}
-    .loisirs {
-       display: flex;
-       flex-direction: row;
-       border:  0;
-       
-    }
-    #loiz {
-      display: flex;
-      align-items: center;
-      border:  0;
-      background-color: #00264D;
-      height: 100%;
-      padding: 10px;
-      text-align: center;
-      inline-size: 30%;
-      height: auto;
-    }
-    #detail-loiz {
-       border: 0;
-       width: 70%;
-       height: auto;
-      border-top: thick solid #00264D;
-      border-bottom: thick solid #00264D;
-      border-reight: 10px solid #00264D;
-	     border-radius: 10px; 
-}
-    .contacte {
-       display: flex;
-       flex-direction: row;
-       border: 0px;
-       
-    }
-    #form-cont {
-      display: flex;
-      align-items: center;
-      border:  0;
-      background-color: #00264D;
-      height: 100%;
-      padding: 10px;
-      text-align: center;
-      inline-size: 30%;
-      height: auto;
-    }
-    #corp-form {
-       border: 0;
-       width: 70%;
-       height: auto;
-      border-top: thick solid #00264D;
-      border-bottom: 10px solid #00264D;
-      border-reight: 10px solid #00264D;
-	    border-radius: 10px 10px 0 0;
+.Etudiant {
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 3px 3px 3px #000, 2px 2px 2px #00ff22;
+    line-height: 1.4;
+    font-size: 1rem;
 }
 
+ #Etudiant {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+   
+ }
+
+.boutons {
+     display: flex;
+     flex-direction: column;
+     border: 0;
+     justify-content: center;
+     padding: 5px;
+     margin-right: 0px;
+     align-items: flex-end;
+     flex: 1;
+   }
+   img {
     
- #pointer {
-  width: 90%;
-  height: 40px;
-  position: relative;
-  background-color: rgba(25, 25, 255, 1);
-  text-align: center;
-  align-items: center;
-  font-family: Britannic;
-  font-style: italic;
-  font-size: 1em;
-  color: white;
-  text-shadow: 2px 2px 2px #000;
+        width: 150px;
+        height: 150px;
+        border-radius: 0;
+        float: left;
+        shape-outside: margin-box;
+        margin: 0 20px  5px 0;  
+       }
+   
+   .photo-presentation {
+    display: flex;
+     flex-direction: column;
+     border-radius: 5%;
+     justify-content: center;
+     padding: 5px;
+     margin-right: 0px;
+     align-items: flex-end;
+     flex: 1;
+    background-color: transparent;
+    
+      
+   }
+     /* ========================= Partie Objectifs professionnels ====================== */
+.objectif {
+      display: flex;
+      flex-direction: row;
+      border: 0;
+      
+   }
+   #obj-p {
+     display: flex;
+     align-items: center;
+     border: 0;
+     background-color: #00264D;
+     height: 100%;
+     padding: 10px;
+     text-align: center;
+     inline-size: 30%;
+     height: auto;
+     
+   }
+   #detail-obj {
+     display: flex;
+     flex-direction: row;
+     border: 0;
+     inline-size: 70%;
+     height: auto;
+     border-top: 10px solid #00264D;
+     border-bottom: thick solid #00264D;
+     border-right: 10px solid #00264D;
+     border-radius: 10px; 
+     justify-content: center;  
+     
+     
+    
+   }
+   .liste-obj, .liste-exp, .liste-form, .liste-comp, .liste-loiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+
+   }
+   /* ============================== Partie Expériences professionnels ====================== */
+   .experience {
+      display: flex;
+      flex-direction: row;
+      border:  0;
+   }
+   #exp-p {
+     display: flex;
+     align-items: center;
+     border: 0;
+     background-color: #00264D;
+     height: 100%;
+     padding: 10px;
+     text-align: center;
+     inline-size: 30%;
+     height: auto;
+   }
+    #detail-exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;       
+    border: 0;
+    width: 70%;
+    height: auto;
+    border-top: thick solid #00264D;
+    border-bottom: thick solid #00264D;
+    border-right: 10px solid #00264D; 
+    border-radius: 10px;
+}
+
+   /* ============================== Partie Formation académique ====================== */
+   .formation {
+      display: flex;
+      flex-direction: row;
+      border:  0;
+      
+   }
+   #form-ac {
+     display: flex;
+     align-items: center;
+     border:  0;
+     background-color: #00264D;
+     height: 100%;
+     padding: 10px;
+     text-align: center;
+     inline-size: 30%;
+     height: auto;
+   }
+   #detail-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    border: 0;
+    width: 70%;
+    height: auto;
+    border-top: thick solid #00264D;
+    border-bottom: thick solid #00264D;
+    border-right: 10px solid #00264D;
+    border-radius: 10px; 
+}
+
+   /* ============================== Partie Compétences professionnelles ====================== */
+   .competence {
+      display: flex;
+      flex-direction: row;
+      border:  0;
+      
+   }
+   #comp {
+     display: flex;
+     align-items: center;
+     border:  0;
+     background-color: #00264D;
+     height: 100%;
+     padding: 10px;
+     text-align: center;
+     inline-size: 30%;
+     height: auto;
+   }
+   #detail-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0;
+    width: 70%;
+    height: auto;
+    border-top: thick solid #00264D;
+    border-bottom: thick solid #00264D;
+    border-right: 10px solid #00264D;
+    border-radius: 10px; 
+}
+
+   /* ============================== Partie Centres d'interêts et loisirs ====================== */
+   .loisirs {
+      display: flex;
+      flex-direction: row;
+      border:  0;
+      
+   }
+   #loiz {
+     display: flex;
+     align-items: center;
+     border:  0;
+     background-color: #00264D;
+     height: 100%;
+     padding: 10px;
+     text-align: center;
+     inline-size: 30%;
+     height: auto;
+   }
+   #detail-loiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0;
+    width: 70%;
+    height: auto;
+    border-top: thick solid #00264D;
+    border-bottom: thick solid #00264D;
+    border-right: 10px solid #00264D;
+    border-radius: 10px; 
+}
+    /* ====================== Partie Niveaux de compétences et de maîtrise ===================*/
+    .Niveaux {
+        display: flex;
+        flex-direction: row;
+        border:  0;
+        
+     }
+     #Niv {
+       display: flex;
+       align-items: center;
+       border:  0;
+       background-color: #00264D;
+       height: 100%;
+       padding: 10px;
+       text-align: center;
+       inline-size: 30%;
+       height: auto;
+     }
+     #detail-Niv {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border: 0;
+      width: 70%;
+      height: auto;
+      border-top: thick solid #00264D;
+      border-bottom: thick solid #00264D;
+      border-right: 10px solid #00264D;
+      border-radius: 10px;
+       
+     } 
+    .liste-Niv li {
+    display: flex;
+    flex-direction: row wrap;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    
+    }
+    .liste-Niv p {
+    flex: 0 0 40%;
+    font-family: "Roboto", sans-serif;
+    font-weight : bold;
+    font-size: 1em;
+    text-shadow: 3px 3px 3px #09971c;
+    }
+    .Barre-total {
+    flex: 0 0 60%;
+    width: 500px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(26, 58, 235), rgb(12, 9, 43));
+    
+    
+   }
+   .Barre-res {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 29px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(35, 230, 51), rgb(18, 41, 11));
+    
+   }
+   .Barre-Linx {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 29px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(35, 230, 51), rgb(18, 41, 11));
+   }
+   .Barre-C {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 29px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(35, 230, 51), rgb(18, 41, 11));
+   }
+   .Barre-Dev {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 29px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(35, 230, 51), rgb(18, 41, 11));
+   }
+   .Barre-SEO {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 29px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(35, 230, 51), rgb(18, 41, 11));
+   }
+
+   /* ============================== Partie Espace contacte Formulaire  ====================== */
+   .contacte {
+      display: flex;
+      flex-direction: row;
+      border: 0px;
+      
+   }
+   #form-cont {
+     display: flex;
+     align-items: center;
+     border:  0;
+     background-color: #00264D;
+     height: 100%;
+     padding: 10px;
+     text-align: center;
+     inline-size: 30%;
+     height: auto;
+   }
+   #corp-form {
+    border: 0;
+    width: 70%;
+    height: auto;
+    border-top: thick solid #00264D;
+    border-bottom: 10px solid #00264D;
+    border-right: 10px solid #00264D;
+    border-radius: 10px;
+}
+/* =================================== Menu de Gauche  =============================== */
+
+#pointer {
+ width: 90%;
+ height: 40px;
+ position: relative;
+ background-color: rgba(25, 25, 255, 1);
+ text-align: center;
+ align-items: center;
+ font-family: Britannic;
+ font-style: italic;
+ font-size: 1em;
+ color: white;
+ text-shadow: 2px 2px 2px #000;
 }
 #pointer:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 0;
+ height: 0;
+ border-left: 20px solid transparent;
+ border-top: 20px solid transparent;
+ border-bottom: 20px solid transparent;
 }
 #pointer:before {
-  content: "";
-  position: absolute;
-  right: -20px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 20px solid rgba(25, 25, 255, 1);
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+ content: "";
+ position: absolute;
+ right: -20px;
+ bottom: 0;
+ width: 0;
+ height: 0;
+ border-left: 20px solid rgba(25, 25, 255, 1);
+ border-top: 20px solid transparent;
+ border-bottom: 20px solid transparent;
 }
-    .contacte {
-      font-family: Avenir, sans-serif;
-    }
+/* ============================== Formulaire de contacte  ========================== */
+.contacte {
+    font-family: Avenir, sans-serif;
+   }
 fieldset{
-  background-color: rgb(204,221,255);
+ background:linear-gradient(to bottom right, rgb(0, 255, 149), blue, rgb(0, 255, 149));
+ border-radius: 10px;
 }
 legend{
-  font-weight: bold;
+ font-weight: bold;
 }
 .champ{
-  margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 textarea{
-  width: 80%;
-  height: 100px;
+ width: 80%;
+ height: 100px;
+ border-radius: 10px;
 }
-    #envoie {
-     border: 0;
-         line-height: 2.1;
-         font-size: 0.8rem;
-         text-align: center;
-         margin-right: 5px;
-         color: #fff;
-         text-shadow: 1px 1px 1px #000;
-         border-radius: 10px;
-         background-color: rgba(25, 25, 255, 1);
-         background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-         box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-	 width: 100px;
+input {
+    border-radius: 7px;
+
+}
+   #envoie {
+    border: 0;
+    line-height: 2.1;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-right: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(25, 25, 255, 1);
+    background-image: linear-gradient(to top left,rgba(0, 0, 0, 0.2),
+   rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    width: 100px;
 }
 
 #envoie:hover {
-  background-color: rgba(255, 0, 0, 1);
+ background-color: rgb(1, 255, 14);
 }
 
 #envoie:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-    }
-
+ box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+   inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+   }
+/* =================================== Pied de Page ================================= */
 footer {
-      display: flex;
-      flex-direction: row;
-      background-image:url("Pied_de_page.jpg");
-      background-size: cover;
-      background-position: center;
-      border-radius: 0 0 10px 10px;
-      height: 150px;
-      padding : 5px;
-      position: left:0 right:0 bottom:0;
-        }
+     display: flex;
+     flex-direction: row;
+     background-image:url("/images/Pied_de_page.jpg");
+     background-size: cover;
+     background-position: center;
+     border-radius: 0 10px 10px 10px;
+     height: 200px;
+     padding : 5px;
+     position: left=0 right=0 bottom=0;
+       }
 .ali-f1 {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;/* position de ali 1 */
-      height: 85%;
-      width: 30%;
-      padding: 10px;
-    }
- .ali-f2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* position des elements dans ali2 */
-      height: 85%;
-      width: 30%;
-      padding: 10px;
-    }
-  .ali-f3 {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;/* position de ali 1 */
-      height: 85%;
-      width: 30%;
-      padding: 10px;
-    }
-
+     display: flex;
+     flex-direction: column;
+     align-items: center;/* position des elements dans ali-f1  */
+     height: 85%;
+     width: 30%;
+     padding: 10px;
+    
+   }
+.ali-f2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center; /* position des elements dans ali-f2 */
+     height: 85%;
+     width: 30%;
+     padding: 10px;
+     
+   }
+ .ali-f3 {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;/* position de ali 1 */
+     height: 85%;
+     width: 30%;
+     padding: 10px;
+   }
+   .titre-f {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    margin-top: 0%;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 3px #000;
+    
+   }
+   
+   .liste-footer a {
+    font-style: italic;
+    text-align: center;
+    color: rgb(158, 255, 1);
+    font-size: 0.9em;
+    line-height: 1.6em;
+    font-family: verdana;
+    text-shadow: 3px 3px 3px #000;
+    text-decoration: none;
+    
+   }
+   .liste-footer a:hover {
+    color: rgba(255, 0, 0, 1);
+   }
+   .coordonnées-f {
+    height: 60%;
+    font-style: italic;
+    color: #fdfdfd;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    font-family: "Roboto", sans-serif;
+    font-weight : 300;
+    margin-top: 60px;
+    
+   }
+   .Retour a {
+    color: #ff7300;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: verdana;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px #000;
+   }
+   .Retour a:hover {
+    color: rgba(255, 0, 0, 1);
+   }
+.ali-f2 p {
+    color: #fdfdfd;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight : 300;
+    margin-top: 85px;
+}
+#titre-contact {
+    margin-left: 35px;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* ==================================== Pointeurs d'ancres ==========================*/
+#obj-p:target {
+    color: rgb(48, 238, 64);
+    background: #06913b;
+}
+#exp-p:target {
+    color: rgb(48, 238, 64);
+    background: #06913b;
+}
+#form-ac:target {
+    color: rgb(48, 238, 64);
+    background: #06913b;
+}
+#comp:target {
+    color: rgb(48, 238, 64);
+    background: #06913b;
+}
+#loiz:target {
+    color: rgb(48, 238, 64);
+    background: #06913b;
+}
