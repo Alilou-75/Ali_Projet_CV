@@ -2,80 +2,152 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <meta name="viewport" content="width=device-width">
+  <script src="https://kit.fontawesome.com/df006a6605.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <title>Ali CV</title>
 </head>
 <body>
+    <!--================================ Entête de la page ============================-->
   <header> 
+    <!--================== Box de Gauche =================-->
     <div class="h-gauche">
-  <img id="photo-ali" src="Ali-1.jpg" alt="Photo de Ali" title="Photo de profil Ali"/>  
-       <ul>
-        <li>Sellam</li>
-        <li>Ali</li>
-        <li>Avenue Gambetta 75020 Paris</li>
-        <li>Tel: 0682723301</li>
-       </ul>
+        <article class="container">
+            <img id="photo-ali" src="Ali-1.jpg" alt="Photo de Ali" title="Photo de profil Ali"/>  
+            <p>Titulaire d’un BTS SIO SISR en administration réseau et systèmes, et actuellement je prépare une licence générale en informatique, je cherche un stage dans le réseau ou le développement web, pour partager mes connaissances et améliorer mes compétences.</p>
+        </article>
+       
    </div> 
+   <!--================== Box du Centre =================-->
     <div class="h-centre">
-       <h1>CV de<br/> Sellam Ali</h1>   
-    </div> 
+       <div class="titre">
+        <h1>Sellam Ali</h1>
+       </div>   
+       <div id="Etudiant">
+        <p class="Etudiant"><b>Etudiant en licence informatique <br/> - Permis B -</b></p>
+       </div>
+    </div>
+    <!--================== Box de Droite =================-->
     <div class="h-droite">
+        <ul>
+            <li>&emsp;&nbsp;<i class="fa-solid fa-user-tie  "></i><b>&ensp; Sellam Ali</b></li>
+            <li>&ensp;<i class="fa-solid fa-house-chimney"></i><b>&ensp; Avenue Gambetta 75020 Paris</b></li>
+            <li><i class="fa-solid fa-envelope "></i> &ensp;<b>alilou7520@hotmail.fr<b></li>
+            <li><i class="fa-solid fa-phone-flip  "></i><b>&ensp; 0682723301</b></li>
+           </ul>
      <nav class="boutons">
          <a class="clique" type="button" href="#contacte">Me Contacter</a>
          <a class="clique" type="button" href="Ali CV 24.pdf" download>Télécharger mon CV</a>
-         <a class="clique" type="button" href="https://ali-sellam-network.webnode.fr">Visitez mon Site</a>        
+         <a class="clique" type="button" href="https://ali-sellam-network.webnode.fr" target="_blank">Visitez mon Site</a>        
       </nav>
       </div>
 </header>
-  
+  <!--============================== Partie Objectifs professionnels ======================-->
   <div class="objectif">
-    <div id="obj-p"><a id="pointer">Objectifs <br/> professionnels</a> </div>
-    <div id="detail-obj"> <ul class="liste-obj">
-        <li>=> Développer des compétences en communication et en travail d'équipe</li>
-        <li>=> Se familiariser avec les technologies émergentes</li>
-        <li>=> Développer des compétences en résolution de problèmes</li>
-        <li>=> Acquérir des compétences techniques solides</li>
-       </ul></div>
+    <div id="obj-p">
+        <a id="pointer">Objectifs <br/> professionnels</a> 
     </div>
+        <div id="detail-obj"> 
+            <ul class="liste-obj">
+            <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Développer des compétences en communication et en travail d'équipe</li>
+            <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Se familiariser avec les technologies émergentes</li>
+            <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Développer des compétences en résolution de problèmes</li>
+            <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Acquérir des compétences techniques solides</li>
+           </ul>
+           <div class="photo-presentation"> 
+            <img id="Objectifs" src="Objectifs-lolgo.png" alt="logo de Objectifs"> 
+           </div>
+        </div>
+    
+       
+    </div>
+    <!--============================== Partie Expériences professionnels ======================-->
   <div class="experience">
-<div id="exp-p"><a id="pointer">Expériences<br/>professionnelles</a></div>
-    <div id="detail-exp"> <ul class="">
-        <li><b>=> 2004 -2022:</b>-Technicien des réseaux aéraulique, chez la société CLIM AIR à Paris <br/>
- -Technicien en maintenance systèmes et matériels informatique et téléphonique</li>
-        <li><b>=> 2013:</b> -Stage assistant administrateur réseau et système, IPG Inter Public Groupe,Clichy92</li>
-       </ul></div>
+    <div id="exp-p">
+     <a id="pointer">Expériences<br/>professionnelles</a>
     </div>
+    <div id="detail-exp"> 
+        <ul class="liste-exp">
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> 2004 - 2022:</b> Technicien des réseaux aéraulique, chez la société CLIM AIR à Paris </li>
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i>2013 - 2022:</b>
+             Technicien en maintenance systèmes et matériels informatique et téléphonique
+        </li>
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> 2013:</b>  Stage assistant administrateur réseau et système, <a href="https://www.interpublic.com/" target="_blank">IPG Inter Public Groupe</a>, Clichy92</li>
+       </ul>
+       <div class="photo-presentation"> 
+        <img id="experience" src="Experiences-logo.png" alt="logo de experience"> 
+        </div>
+    </div>
+    </div>
+    <!--================================ Partie Formation académique ==========================-->
   <div class="formation">
 <div id="form-ac"><a id="pointer">Formations<br/> académique</a></div>
-    <div id="detail-form"> <ul class="">
-        <li><b>=> 2023-2024:</b>-Préparation licence generale en informatique</li>
-        <li><b>=> 2012 - 2013:</b> BTS SIO SISR (services informatiques aux organisations, option solutions d’infrastructure, systèmes et Réseaux) <br/>
-          – Administrateur Réseaux (école technique supérieur IFOPI à Paris Bastille).</li>
-        <li><b>=> 1994 - 1997:</b> Licence en sciences, Algérie </li>
-       </ul></div>
+    <div id="detail-form"> <ul class="liste-form">
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> 2023 - 2024:</b> Préparation licence generale en informatique à l'université de Paris Nanterre <a href="https://cnam-idf.fr/nos-centres/nanterre" target="_blank">CNAM</a></li>
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> 2012 - 2013:</b> BTS SIO SISR (services informatiques aux organisations, option solutions d’infrastructure, systèmes et Réseaux) Administrateur Réseaux (école technique supérieur <a href="http://www.ifopi.com/" target="_blank">IFOPI</a> à Paris 11 Bastille).</li>
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> 1994 - 1997:</b> Licence en sciences, Algérie </li>
+       </ul>
+       <div class="photo-presentation"> <img id="Formations" src="Formations.png" alt="photo de Formations"> </div>
     </div>
+    </div>
+    <!--============================ Partie Compétences professionnelles ======================-->
     <div class="competence">
 <div id="comp"><a id="pointer">Competences<br/>professionnelles</a></div>
-    <div id="detail-comp"> <ul class="">
-        <li>=> Installation et configuration d’équipements réseau</li>
-        <li>=> Migration d’un réseau poste à poste vers un domaine Active Directory.</li>
-        <li>=> Installation et configuration des services DNS et DHCP.</li>
-        <li>=> Installation et configuration des services DNS et DHCP.</li>
-        <li>=> Déploiement massif de systèmes et logiciels en réseau.</li>
-        <li>=> Segmentation du réseau en VLAN (équipements CISCO) et routage.</li>
-       </ul></div>
+    <div id="detail-comp"> <ul class="liste-comp">
+        <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Installation et configuration d’équipements réseau</li>
+        <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Migration d’un réseau poste à poste vers un domaine Active Directory.</li>
+        <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Installation et configuration des services DNS et DHCP.</li>
+        <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Installation et configuration des services DNS et DHCP.</li>
+        <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Déploiement massif de systèmes et logiciels en réseau.</li>
+        <li><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Segmentation du réseau en VLAN (équipements CISCO) et routage.</li>
+       </ul>
+       <div class="photo-presentation"> <img id="compétences" src="Competences-logo.png" alt="photo de compétences"> </div>
     </div>
+    </div>
+    <!--========================== Partie Centres d'interêts et loisirs ======================-->
     <div class="loisirs">
 <div id="loiz"><a id="pointer">Centres d'interêts<br/> et loisirs</a></div>
-    <div id="detail-loiz"> <ul class="">
-        <li><B>=> Sport:</B>VTT,Automobile, Tennis de table, Natation</li>
-        <li><b>=> Arts et Loisirs:</b>Peinture, Photographie, Jeux vidéo, Nouvelles technologies et voyages.</li>
-</ul></div>
+    <div id="detail-loiz"> <ul class="liste-loiz">
+        <li><B><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Sport:</B> VTT, Automobile, Tennis de table, Natation...</li>
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Arts:</b> Peinture, Photographie...</li>
+        <li><b><i class="fa-solid fa-hand-pointer fa-rotate-90"></i>Loisirs:</b> Jeux vidéo, Musique, Nouvelles technologies et voyages.</li>
+</ul>
+<div class="photo-presentation"> <img id="loisirs" src="Hobbies-logo.png" alt="photo de hobbies"> </div>
+</div>
     </div>
+    <!--====================== Partie Niveaux de compétences et de maîtrise ===================-->
+    <div class="Niveaux">
+        <div id="Niv">
+            <a id="pointer">Niveaux de compétences<br/> et de maîtrise</a>
+        </div>
+            <div id="detail-Niv"> 
+                <ul class="liste-Niv">
+                <li><p>Réseau</p> <div class="Barre-total">
+                    <div class="Barre-res"></div>
+                </div></li>
+                <li><p>Linux</p> <div class="Barre-total">
+                    <div class="Barre-Linx"></div>
+                </div></li>
+                <li><p>Programmation C</p> <div class="Barre-total">
+                    <div class="Barre-C"></div>
+                </div></li>
+                <li><p>HTML5/CSS3</p> <div class="Barre-total">
+                    <div class="Barre-Dev"></div>
+                </div></li>
+                <li><p>SEO</p> <div class="Barre-total">
+                    <div class="Barre-SEO"></div>
+                </div></li>
+                
+                </ul>
+            </div>
+    </div>
+    <!--========================== Partie Espace contacte Formulaire  ======================-->
     <div class="contacte" id="contacte">
 <div id="form-cont"><a id="pointer">Espace pour<br/> me contacter</a></div>
-    <div id="corp-form"> <h2> Contacte</h2>
+    <div id="corp-form"> <h3><b>Contacte</b></h3>
     <form method="post" action="form.php">
             <fieldset>
               <legend><i>Merci de me laisser un message :</i></legend>
@@ -96,16 +168,50 @@
                </div>
            
 <input id="envoie" type="submit" value="Envoyer">
-              <a href="#">Retour en haut de page</a>
+              
      </fieldset>
 </form>
     </div>
     </div>
-  
+  <!--=================================== Pied de page ==================================-->
   <footer>
-    <div class="ali-f1"></div>
-    <div class="ali-f2"></div>
-    <div class="ali-f3"></div>
+    <div class="ali-f1">
+        <div id="titre-list">
+            <h3 class="titre-f">PLAN DE LA PAGE</h3>
+        </div>
+        
+        <div class="liste-footer">
+            <ul>
+                <li><a href="#obj-p">Objectifs professionnels</a></li>
+                <li><a href="#exp-p">Expériences professionnelles</a></li>
+                 <li><a href="#form-ac">Formations académique</a></li>
+                 <li><a href="#comp">Competences professionnelles</a></li>
+                 <li><a href="#loiz">Centres d'interêts et loisirs</a></li>
+            </ul>
+
+        </div>
+    
+    </div>
+    <div class="ali-f2">
+        <h2>Sellam Ali</h2>
+        <div class="Retour"><a href="#">Retour en haut de page</a></div>
+        <p>Copyright © 2024 Ali-cv.net</p>
+    </div>
+    <div class="ali-f3">
+        <div id="titre-contact">
+            <h3 class="titre-f">CONTACTE</h3></div>
+            <div>
+        <div class="coordonnées-f">  
+                <ul>
+                    <li><i class="fa-solid fa-house-chimney"></i>&ensp;Avenue Gambetta, 75020 Paris, France</li>
+                    <li><i class="fa-solid fa-envelope"></i> &ensp;alilou7520@hotmail.fr</li>
+                    <li><i class="fa-solid fa-phone-flip"></i> &ensp;+0682723301</li>
+                </ul>
+            </div>
+            
+        </div> 
+
+    </div>
   </footer>
 </body>
 </html>
